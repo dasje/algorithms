@@ -1,6 +1,5 @@
 from typing import List, Generator, TypeVar
-
-T = TypeVar("T")
+from schemas.core_schemas import T
 
 def linear_search(list_to_search: List[T], value_to_find: T) -> Generator[int, None, int|None]:
     """An algorithm that searches an input array for a specific value.

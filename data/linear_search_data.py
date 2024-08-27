@@ -1,7 +1,6 @@
 from pydantic import BaseModel
-from typing import List, TypeVar
-
-T = TypeVar("T")
+from typing import List
+from schemas.core_schemas import T
 
 class LinearSearchDataType(BaseModel):
     input: List[T]

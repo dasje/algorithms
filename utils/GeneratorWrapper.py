@@ -1,7 +1,3 @@
-from typing import TypeVar
-
-T = TypeVar("T")
-
 class GeneratorWrapper:
     def __init__(self, gen):
         self.gen = gen
